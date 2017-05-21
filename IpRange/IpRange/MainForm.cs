@@ -169,7 +169,7 @@ namespace IpRange
 
         public async Task UnloadIPAddresses(string fileName, CancellationTokenSource token)
         {
-            using (FileStream fstream = new FileStream(fileName, FileMode.Truncate))
+            using (FileStream fstream = new FileStream(fileName, FileMode.Create))
             {
                 for (var i = 1; i <= _totalPages; i++)
                 {
