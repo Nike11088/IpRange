@@ -86,7 +86,7 @@ namespace IpRange.Controls
 
         public string TextB
         {
-            get { return txbxIPA.Text; }
+            get { return txbxIPB.Text; }
             set { txbxIPB.Text = value; }
         }
 

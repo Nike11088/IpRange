@@ -52,6 +52,12 @@
     <Compile Include="Controls\IPAddress.Designer.cs">
       <DependentUpon>IPAddress.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\Navigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigation.Designer.cs">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\IPAddress.resx">
       <DependentUpon>IPAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Navigation.resx">
+      <DependentUpon>Navigation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
