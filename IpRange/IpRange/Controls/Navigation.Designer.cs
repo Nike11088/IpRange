@@ -79,7 +79,6 @@
             this.txbxCurrentPage.Name = "txbxCurrentPage";
             this.txbxCurrentPage.Size = new System.Drawing.Size(29, 20);
             this.txbxCurrentPage.TabIndex = 4;
-            this.txbxCurrentPage.TextChanged += new System.EventHandler(this.txbxCurrentPage_TextChanged);
             this.txbxCurrentPage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbxCurrentPage_KeyDown);
             this.txbxCurrentPage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbxCurrentPage_KeyPress);
             // 

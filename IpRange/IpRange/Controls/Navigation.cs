@@ -22,7 +22,6 @@ namespace IpRange.Controls
             btnPreviousPage.Click += Btn_Click;
             btnNextPage.Click += Btn_Click;
             btnLastPage.Click += Btn_Click;
-            txbxCurrentPage.TextChanged += txbxCurrentPage_TextChanged;
         }
 
         private void Btn_Click(object sender, EventArgs e)
@@ -109,25 +108,7 @@ namespace IpRange.Controls
         public event EventHandler NextPageClick;
         public event EventHandler LastPageClick;
         public event EventHandler CurrentPageTextChanged;
-
-
-        private void txbxCurrentPage_TextChanged(object sender, EventArgs e)
-        {
-            
-
-            //var number = int.Parse(txbxCurrentPage.Text);
-
-            //if (number == 0 && totalPages > 0)
-            //{
-            //    (sender as TextBox).Text = "0";
-            //}
-
-            //if (number > totalPages)
-            //{
-            //    (sender as TextBox).Text = totalPages.ToString();
-            //}
-        }
-
+                
         private void txbxCurrentPage_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!Char.IsDigit(e.KeyChar) && e.KeyChar != '\b')
